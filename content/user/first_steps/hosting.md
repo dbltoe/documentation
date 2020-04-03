@@ -86,7 +86,7 @@ Zen Cart project recommends Linux with Apache (or Linux with Nginx),
 but **not** Windows with IIS. 
 
 Most users will want a hosting account that offers a Control Panel, such
-as CPanel.  The control panel gives you easy access to the underlying 
+as cPanel.  The control panel gives you easy access to the underlying 
 operating system functionality. 
 
 The Zen Cart project recommends a number of hosting providers on 
@@ -120,7 +120,7 @@ An example of transferring a file is provided in [Installing a File](/user/new_u
 An SSL certificate allows your content to be securely accessed 
 using encryption.  
 
-When an SSL Certificate is purchased, it is issued to a particular domain name. Certificates are purchased in 1-year blocks. The certificate is installed on your Hosting Server and linked to your site so that your customers can shop with encryption protection when needed.
+When an SSL Certificate is purchased, it is issued to a particular domain name. Certificates are purchased in 1-year blocks. The certificate is installed on your Hosting Server and linked to your site so that your customers can shop with encryption protection when needed. Some hosting companies offer free SSL certificates with certain plans. Check the [Recommended Services](https://www.zen-cart.com/content.php?3-services) page to see which of our recommended hosts provides free SSL certificates.
 
 SSL Certificates are an add-on to a hosting account, and are not directly tied to a hosting plan's expiry dates, etc. However, since hosting plans are usually purchased first, and SSL certificates are issued a few days later, it is quite common for a hosting plan to expire a couple days before an SSL certificate expires.
 
