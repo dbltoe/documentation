@@ -9,13 +9,13 @@ Before you read this article, please be sure you are familiar with [Basic Terms]
 
 ### What is Accessibility? 
 
-Web Content Accessibility Guidelines (WCAG) is developed through the W3C process in cooperation with individuals and organizations around the world, with a goal of providing a single shared standard for web content accessibility that meets the needs of individuals, organizations, and governments internationally.  You'll find a great article at the [W3C Web Design and Applications page](https://www.w3.org/standards/webdesign/accessibility).
+*Web Content Accessibility Guidelines (WCAG) is developed through the W3C process in cooperation with individuals and organizations around the world, with a goal of providing a single shared standard for web content accessibility that meets the needs of individuals, organizations, and governments internationally.*  You'll find a great article at the [W3C Web Design and Applications page](https://www.w3.org/standards/webdesign/accessibility).
 
 What follows are just a few of the things that Zen Cart users should consider when creating or editing their template and site.  Think of it as a quick triumvirate of accessibility steps to think about.  These three are the most common accessibility standards that should be considered when adding anything to your site.
 
 #### Visual Problems
 
-Whether you know it or not, there are many accommodations for access in our daily lives.  Signal lights (red, yellow, green) are all top to bottom or left to right.  You'll find this is a world-wide standard.  Is this because everyone buys from the same signal light manufacturer?  It's actually because one out of every twelve men and one out of every two hundred women is "color blind".  The more accurate description is color deficient.  The signals are the same because the main color deficiencies are in the red (protan) and green (deutan) defects.  With them always in the same order, the color deficient person decide to go or stop based on the location of the light rather than the color.
+Whether you know it or not, there are many accommodations for access in our daily lives.  Signal lights (red, yellow, green) are all top to bottom or left to right.  You'll find this is a world-wide standard.  Is this because everyone buys from the same signal light manufacturer?  It's actually because one out of every twelve men and one out of every two hundred women is "color blind".  The more accurate description is color deficient.  The signals are the same because the main color deficiencies are in the red (protan) and green (deutan) defects.  With them always in the same order, the color deficient person decides to go or stop based on the location of the light rather than the color.
 
 If we look at just the 2017 US statistics, that would mean that over thirteen million men and eight hundred and thirty thousand women will have a problem looking at a website that contains reds or greens.  That translates to five per cent of the US people are going to have problems with colors on a website.
 
@@ -44,7 +44,7 @@ But Accessibility is not just about the visually challenged.  What about the fol
 
 "What am I supposed to do about their problem?" you might ask.  The answer is Alternative Text for Images.  How does that help their problem?
 
-Many folks are forced to turn off the display of image in their browser just to get the page to load on their low-speed connection.  The Alternative Text (alt tag) is a vital tool that can be used to "tell" the browser what the image is that they are not seeing.
+Many folks are forced to turn off the display of images in their browser just to get the page to load on their low-speed connection.  The Alternative Text (alt tag) is a vital tool that can be used to "tell" the browser what the image is that they are not seeing.
 
 Zen Cart uses image `alt` tags to help describe images.  For example, in the demo data set, product 27's image appears on the product info page like this: 
 
