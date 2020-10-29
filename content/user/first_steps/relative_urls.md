@@ -31,7 +31,7 @@ Instead, it is better to use a relative URL, which will always work.
 The same applies to the use of image tags.  In a [define page](/user/template/define_pages/) or an [EZ-Page](/user/ezpages/), be careful not to start image URLs with a `/`.
 
 ```
-<img src="/images/POINTS.jpg" alt="Get Points">   <!-- NO --> 
+<img src="/images/POINTS.jpg" alt="Get Points" />   <!-- NO --> 
 ```
 
 The reason is, this will work when the site is at the top level, but it won't work if the store is moved to a subfolder, which is common when setting up a test site.
@@ -39,6 +39,6 @@ The reason is, this will work when the site is at the top level, but it won't wo
 If you don't start the path name with a slash, it *will* work correctly, whether the store is at the top level or in a subfolder. 
 
 ```
-<img src="images/POINTS.jpg" alt="Get Points"></p>
+<img src="images/POINTS.jpg" alt="Get Points" /></p>
 ```
 
